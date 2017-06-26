@@ -1,0 +1,6 @@
+.about {
+  max-width: 1600px; }
+  .about__big-banner {
+    width: 380px;
+    height: 555px;
+    background-image: url(../image/abou-div-bg-1.png); }

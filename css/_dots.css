@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.slick-dots li button:before {
+  font-size: 25px;
+  color: #8069c7;
+  content: '○'; }
+
+.slick-dots li.slick-active button:before {
+  font-size: 25px;
+  color: #8069c7;
+  content: '●'; }
+
+.slick-dots li button {
+  width: 20px;
+  height: 21px; }
+
+.slick-dots {
+  bottom: -44px; }
+
+.slick-dots li {
+  margin: 0; }
