@@ -155,7 +155,7 @@
         <a href="image/campofr-o-home-a1-1800.png" data-fancybox="works" data-caption="works" class="button works__button">View Gallery</a>
     </section>
     <!-- SECTION TEAM -->
-    <section id="team" class="team">
+    <section id="team" class="team" data-magellan-target="team">
         <div class="column row team__top">
             <img class="team__icon" src="image/icon-team.png">
             <h2 class="team__title">MEET OUR TEAM</h2>
@@ -262,6 +262,80 @@
             </div>
         </div>
     </section>
+    <!-- CONTACTS -->
+    <section id="contact" class="contact" data-magellan-target="contact">
+        <div id="map" class="contact__map"></div>
+        <div class="contact__map-bg"></div>
+        <div class="cont">
+            <div class="cont__picture">
+                <img src="image/icon-address.png" alt="" class="cont__img">
+            </div>
+            <div class="cont__address">
+                <p class="cont__text">Ikan Piranha Atas 220C</br>Malang - East Java</br>Indonesia</p>
+            </div>
+        </div>
+        <div class="cont cont--phone">
+            <div class="cont__picture">
+                <img src="image/icon-phone.png" alt="" class="cont__img">
+            </div>
+            <div class="cont__address">
+                <p class="cont__text">+381 111 222 333</br>+381 111 222 444</br>+381 111 222 555</p>
+            </div>
+        </div>
+        <div class="contact__content">
+            <div class="column row contact__top">
+                <img class="contact__icon" src="image/contact-icon.png"></img>
+                <h2 class="contact__title">
+            GET IN TOUCH
+        </h2>
+            </div>
+            <form class="form" id="form">
+                <div class="small-12 row align-center">
+                    <div class="medium-4 small-12 columns">
+                        <input class="form__input" type="text" placeholder="Your Name *">
+                    </div>
+                    <div class="medium-4 small-12 columns">
+                        <input class="form__input" type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="medium-8 small-12 columns">
+                        <textarea class="form__input form__input--textarea" placeholder="Your Message *"></textarea>
+                    </div>
+                    <div class="medium-8 small-12 columns align-center form__wrap-button">
+                        <button class="form__button primary button" type="submit" form="form" value="submit">SEND MESSAGE</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__content row">
+            <div class="column medium-6">
+                <p class="footer__text">
+                    ©2014 tulusdriyo. All Rights Reserved.
+                </p>
+            </div>
+            <div class="column medium-6">
+                <ul class="soc">
+                    <li class="soc__list">
+                        <a href="" class="soc__link"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="soc__list">
+                        <a href="" class="soc__link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="soc__list">
+                        <a href="" class="soc__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="soc__list">
+                        <a href="" class="soc__link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="soc__list">
+                        <a href="" class="soc__link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="https://use.fontawesome.com/47c54b3ca0.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/what-input.js"></script>
@@ -269,6 +343,9 @@
     <script src="js/wow.js"></script>
     <script src="js/jquery.fancybox.js"></script>
     <script src="js/slick.js"></script>
+    <script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS7qcOb8f5fBcIfHe1UqD9O3NGjSJu16w&callback=initMap">
+    </script>
     <script src="js/app.js"></script>
 </body>
 
