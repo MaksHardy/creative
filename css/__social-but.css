@@ -1,0 +1,19 @@
+.soc {
+  background-color: #9f9acf;
+  margin: 0 auto;
+  position: relative;
+  height: 70px;
+  bottom: -17px;
+  width: 350px; }
+  .soc__list {
+    list-style-type: none;
+    display: inline-block; }
+  .soc__link {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    font-size: 20px;
+    margin: 22px 7px 0; }
